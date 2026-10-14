@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiranex Blog Engine - Join Platform</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-card">
+            <h2>Author Registration</h2>
+            <p>Set up credentials to start writing posts</p>
+            <form id="registerForm">
+                <div class="form-group">
+                    <label>Full Username</label>
+                    <input type="text" id="username" required placeholder="johndoe">
+                </div>
+                <div class="form-group">
+                    <label>Email Address</label>
+                    <input type="email" id="email" required placeholder="name@domain.com">
+                </div>
+                <div class="form-group">
+                    <label>Secure Password</label>
+                    <input type="password" id="password" required placeholder="••••••••">
+                </div>
+                <button type="submit" class="btn-primary">Register Account</button>
+            </form>
+            <p class="auth-redirect">Already registered? <a href="index.html">Sign In here</a></p>
+        </div>
+    </div>
+    <script src="js/auth.js"></script>
+</body>
+</html>

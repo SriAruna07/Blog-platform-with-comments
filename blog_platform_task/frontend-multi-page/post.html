@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiranex Blog Engine - View Article</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand"><a href="dashboard.html" style="color:white; text-decoration:none;">← Back to Feed</a></div>
+        <div class="nav-actions" id="authorControls" style="display:none;">
+            <button id="editBtn" class="btn-secondary">Modify Content</button>
+            <button id="deleteBtn" class="btn-danger">Purge Article</button>
+        </div>
+    </nav>
+    <main class="article-container">
+        <article class="full-post">
+            <h1 id="postTitle">Loading Article...</h1>
+            <div class="post-metadata">Authored by <span id="postAuthor">...</span> | Published on <span id="postDate">...</span></div>
+            <div class="post-body" id="postBody"></div>
+        </article>
+        
+        <section class="comments-section">
+            <h3>Community Interactions</h3>
+            <form id="commentForm" class="comment-input-block">
+                <textarea id="commentContent" placeholder="Contribute to the discussion securely..." required></textarea>
+                <button type="submit" class="btn-primary">Post Comment</button>
+            </form>
+            <div class="comments-list" id="commentsList">
+                <!-- Comments parsed dynamically -->
+            </div>
+        </section>
+    </main>
+    <script src="js/post-detail.js"></script>
+</body>
+</html>

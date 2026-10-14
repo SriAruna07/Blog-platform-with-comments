@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiranex Blog Engine - Dashboard Feed</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">Thiranex Blog Hub</div>
+        <div class="nav-actions">
+            <a href="create.html" class="btn-accent">+ New Post</a>
+            <button id="logoutBtn" class="btn-secondary">Sign Out</button>
+        </div>
+    </nav>
+    <main class="dashboard-layout">
+        <header class="feed-header">
+            <h1>Active Blog Feed</h1>
+            <p>Explore articles, insights, and community interaction logs.</p>
+        </header>
+        <section class="post-grid" id="postGrid">
+            <!-- Dynamic entries inject here -->
+            <div class="loading-state">Syncing platform resources...</div>
+        </section>
+    </main>
+    <script src="js/dashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiranex Blog Engine - Content Creator</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand"><a href="dashboard.html" style="color:white; text-decoration:none;">Cancel Studio</a></div>
+    </nav>
+    <main class="studio-container">
+        <h2 id="studioTitle">Compose Article Asset</h2>
+        <form id="postStudioForm">
+            <div class="form-group">
+                <label>Article Title</label>
+                <input type="text" id="studioPostTitle" required placeholder="Provide an informative headline...">
+            </div>
+            <div class="form-group">
+                <label>Body Content Markdown/Text</label>
+                <textarea id="studioPostBody" required placeholder="Construct your article context structure..."></textarea>
+            </div>
+            <button type="submit" class="btn-primary" id="studioSubmitBtn">Publish to Global Feed</button>
+        </form>
+    </main>
+    <script src="js/create-post.js"></script>
+</body>
+</html>
