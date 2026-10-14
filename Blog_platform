@@ -1,0 +1,113 @@
+# Blog Platform with Comments
+
+A full-stack blog platform developed as part of my **Thiranex Full Stack Development Internship – Task 4**. The application allows users to create and manage blog posts and interact with other users through comments.
+
+## Features
+
+- User registration and login
+- User authentication and authorization
+- Create, edit, and delete blog posts
+- Add comments to blog posts
+- View posts created by users
+- RESTful API integration
+- Database integration
+- Responsive user interface
+
+## Technologies Used
+
+**Frontend**
+- HTML5
+- CSS3
+- JavaScript
+
+**Backend**
+- Node.js
+- Express.js
+
+**Database**
+- MongoDB
+- Mongoose
+
+**Authentication**
+- JSON Web Token (JWT)
+- bcrypt.js
+
+## Project Structure
+
+```text
+blog-platform/
+├── public/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+├── models/
+├── routes/
+├── middleware/
+├── server.js
+├── package.json
+├── .env.example
+├── .gitignore
+└── README.md
+```
+
+*Note: Update this structure to match the actual files in your project.*
+
+## Installation and Setup
+
+### 1. Clone the repository
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_LINK
+```
+
+### 2. Open the project folder
+
+```bash
+cd blog-platform
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Configure environment variables
+
+Create a `.env` file in the project root and configure the required variables.
+
+Example:
+
+```env
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+PORT=3000
+```
+
+Use your own MongoDB connection string and a strong secret. Never upload your actual `.env` file to GitHub.
+
+### 5. Start the application
+
+```bash
+npm start
+```
+
+### 6. Open in your browser
+
+```text
+http://localhost:3000
+```
+
+## Purpose
+
+This project demonstrates full-stack web development concepts, including user authentication, content management, comments, REST APIs, and database integration.
+
+## Internship Information
+
+- **Organization:** Thiranex
+- **Task:** Task 4 – Blog Platform with Comments
+- **Role:** Full Stack Development Intern
+
+---
+
+Developed as a learning project to strengthen practical full-stack development skills.
